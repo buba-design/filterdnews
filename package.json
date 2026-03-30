@@ -1,0 +1,17 @@
+{
+  "name": "filterdnews",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run dev --prefix frontend\" \"npm run dev --prefix backend\""
+  },
+  "dependencies": {
+    "concurrently": "^9.2.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.7.0",
+    "matter-js": "^0.20.0",
+    "matter-wrap": "^0.2.0",
+    "react-router-dom": "^7.13.2"
+  }
+}
