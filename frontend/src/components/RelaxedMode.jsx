@@ -17,8 +17,6 @@ const RelaxedMode = () => {
     { top: '45%', left: '60%' },
     { top: '70%', left: '80%' },
     { top: '80%', left: '15%' },
-    { top: '75%', left: '40%' },
-    { top: '60%', left: '65%' },
   ];
 
   useEffect(() => {
