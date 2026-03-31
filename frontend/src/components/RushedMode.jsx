@@ -4,7 +4,16 @@ import Header from './Header';
 
 const NewsRow = ({ item, index }) => {
   const flags = ['us', 'eu', 'fr', 'gb', 'ir', 'cn'];
-  const flagCode = item.countryCode ? item.countryCode.toLowerCase() : flags[index % flags.length];
+  
+  // Robustly handle common non-ISO AI responses
+  let rawCode = item.countryCode ? item.countryCode.toLowerCase().trim() : flags[index % flags.length];
+  const aliasMap = {
+    'uk': 'gb',
+    'usa': 'us',
+    'eng': 'gb-eng',
+    'un': 'eu' // Use EU flag for global "UN" news
+  };
+  const flagCode = aliasMap[rawCode] || rawCode;
   const flagUrl = `/small_flags/${flagCode} Small Small Small.jpeg`;
 
   const [isHovered, setIsHovered] = useState(false);

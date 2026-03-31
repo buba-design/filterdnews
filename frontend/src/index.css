@@ -29,6 +29,11 @@
   box-sizing: border-box;
 }
 
+@keyframes startTicker {
+  0%   { transform: translateX(0); }
+  100% { transform: translateX(-33.333%); }
+}
+
 body {
   font-family: var(--font-default);
   background-color: var(--bg-color-start);
