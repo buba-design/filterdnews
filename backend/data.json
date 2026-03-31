@@ -1,180 +1,191 @@
 {
   "rushed": [
     {
-      "title": "HOW THE US COULD TRY TO SEIZE IRAN'S KHARG ISLAND",
-      "summary": "URGENT: TRUMP INDICATES POTENTIAL US MILITARY ACTION TO SEIZE KEY IRANIAN OIL TERMINAL. HIGH-STAKES CONFLICT LOOMS.",
+      "title": "CHINA BANS STORING CREMATED REMAINS IN EMPTY 'BONE ASH APARTMENTS'",
+      "summary": "BREAKING NEWS: CHINA ISSUES SWEEPING BAN ON 'BONE ASH APARTMENTS' TO CONTROL UNREGULATED STORAGE OF CREMATED REMAINS.",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c937gd1vq7xo?at_medium=RSS&at_campaign=rss",
-      "image": null
+      "url": "https://www.bbc.com/news/articles/cm25ynex2zxo?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "countryCode": "cn"
     },
     {
-      "title": "SPAIN CLOSES AIRSPACE TO US AIRCRAFT INVOLVED IN IRAN WAR",
-      "summary": "BREAKING: SPAIN DENIES US USE OF MILITARY BASES, CLOSES AIRSPACE AMID IRAN CONFLICT. INTERNATIONAL RELATIONS TENSE.",
+      "title": "SEXUAL VIOLENCE PART OF 'EVERYDAY LIFE' IN PARTS OF SUDAN, CHARITY SAYS",
+      "summary": "URGENT REPORT: CHARITY WARNS OF WIDESPREAD SEXUAL VIOLENCE AS PART OF 'EVERYDAY LIFE' IN SUDAN. CRISIS INTENSIFIES.",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cwy368j1e3lo?at_medium=RSS&at_campaign=rss",
-      "image": null
+      "url": "https://www.bbc.com/news/articles/c5ywgn2n3nqo?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "countryCode": "sd"
     },
     {
-      "title": "RUSSIAN OIL TANKER REACHES CUBA AFTER TRUMP APPEARS TO LOOSEN BLOCKADE",
-      "summary": "SITUATION ALERT: RUSSIAN OIL TANKER ARRIVES IN CUBA AFTER TRUMP'S STATED \"NO PROBLEM\" STANCE. GEOPOLITICAL SHIFT UNFOLDS.",
+      "title": "PALESTINIANS CONVICTED OF LETHAL ATTACKS FACE DEATH PENALTY UNDER NEW ISRAELI LAW",
+      "summary": "BREAKING: ISRAEL ENACTS CONTROVERSIAL LAW INTRODUCING DEATH PENALTY FOR LETHAL ATTACKS. MAJOR POLITICAL SHAKEUP ANTICIPATED.",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/czrevyx28z2o?at_medium=RSS&at_campaign=rss",
-      "image": null
+      "url": "https://www.bbc.com/news/articles/cp8dkd6lnjdo?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "countryCode": "il"
     },
     {
-      "title": "RUSSIA EXPELS BRITISH DIPLOMAT OVER SPYING ALLEGATIONS",
-      "summary": "URGENT: RUSSIA EXPELS BRITISH DIPLOMAT AMID SPYING ALLEGATIONS. UK ACCUSES RUSSIA OF HARASSMENT. DIPLOMATIC TENSIONS ESCALATE.",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/czx94e7j5jpo?at_medium=RSS&at_campaign=rss",
-      "image": null
-    },
-    {
-      "title": "IRAN WAR LIVE UPDATES: TRUMP CLAIMS PROGRESS IN TALKS TO END WAR, THEN AGAIN THREATENS INTENSE ATTACKS",
-      "summary": "FLASH: TRUMP ISSUES CONFLICTING STATEMENTS ON IRAN WAR, THREATENS \"OBLITERATING\" ATTACKS AFTER TALKS. MARKETS WAVER.",
+      "title": "KUWAITI TANKER FULL OF OIL STRUCK OFF DUBAI DAY AFTER TRUMP’S THREATS",
+      "summary": "URGENT: OIL TANKER HIT OFF DUBAI COAST. INCIDENT FOLLOWS TRUMP'S THREATS, RAISING REGIONAL TENSIONS AND SPILL CONCERNS.",
       "source": "New York Times",
       "url": "https://www.nytimes.com/live/2026/03/30/world/iran-war-trump-oil-news",
-      "image": null
+      "image": null,
+      "countryCode": "ae"
     },
     {
-      "title": "HE LED CONGO FOR 18 YEARS. NOW, JOSEPH KABILA IS A HUNTED MAN.",
-      "summary": "ALERT: FORMER CONGOLESE PRESIDENT JOSEPH KABILA CONVICTED OF TREASON, FACING DEATH PENALTY. POLITICAL CRISIS DEEPENS.",
+      "title": "PUTIN’S INTERNET BLACKOUT: A CHAOTIC DRIVE TO CUT OFF RUSSIANS FROM THE WORLD",
+      "summary": "CRITICAL: RUSSIA IMPLEMENTS INTERNET BLACKOUTS. PUTIN'S REGIME MOVES TO FURTHER ISOLATE CITIZENS AND CONTROL INFORMATION FLOWS.",
       "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/03/30/world/africa/he-led-congo-for-18-years-now-hes-a-hunted-man.html",
-      "image": null
+      "url": "https://www.nytimes.com/2026/03/31/world/europe/russia-putin-telegram-internet.html",
+      "image": null,
+      "countryCode": "ru"
     },
     {
-      "title": "THEY’VE BEEN ACCUSED OF RUNNING A ‘COVERT’ OPERATION IN GREENLAND. IT’S NO SECRET.",
-      "summary": "URGENT: TRUMP ALLIES ACCUSED OF COVERT OPERATIONS IN GREENLAND. DANISH INTELLIGENCE MONITORING UNUSUALLY ACTIVE DEALINGS.",
+      "title": "EUROPE HAS A ‘GUNS VS. BUTTER’ PROBLEM. WAR IN IRAN MAKES IT WORSE.",
+      "summary": "EUROPE FACES LOOMING FISCAL CRISIS: DEFENSE VS. DOMESTIC SPENDING. IRAN CONFLICT INTENSIFIES ECONOMIC STRAINS AND POLITICAL DEBATES.",
       "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/03/30/world/europe/trump-greenland-operation-danish-media.html",
-      "image": null
+      "url": "https://www.nytimes.com/2026/03/31/world/europe/europe-spending-problem-military-domestic.html",
+      "image": null,
+      "countryCode": "eu"
     },
     {
-      "title": "ISRAEL DEBATES LAW TO ALLOW HANGING OF PALESTINIANS CONVICTED OF DEADLY ATTACKS",
-      "summary": "WARNING: ISRAEL DEBATES CONTROVERSIAL LAW FOR DEATH PENALTY FOR PALESTINIANS. EXPERTS FEAR IMPLICATIONS.",
+      "title": "U.S. SENATORS PRESS TAIWAN TO RAISE MILITARY SPENDING, AS CHINA PROTESTS",
+      "summary": "HIGH-STAKES: U.S. SENATORS PUSH TAIWAN FOR INCREASED MILITARY SPENDING AMIDST CHINA'S FIERCE PROTESTS. REGIONAL TENSIONS ESCALATE.",
       "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/03/30/world/middleeast/israel-death-penalty-palestinians-attacks.html",
-      "image": null
+      "url": "https://www.nytimes.com/2026/03/31/world/asia/senators-taiwan-military.html",
+      "image": null,
+      "countryCode": "tw"
     },
     {
       "title": "PHILANTHROPY IS A 'SIGNIFICANT FORM OF POWER.' HERE'S HOW JEFFREY EPSTEIN EXPLOITED THAT",
-      "summary": "URGENT ALERT: NEW REPORT REVEALS HOW JEFFREY EPSTEIN EXPLOITED PHILANTHROPY, LAUNDERING REPUTATION THROUGH SCIENCE FUNDING. LACK OF OVERSIGHT HIGHLIGHTED.",
+      "summary": "URGENT INVESTIGATION: JEFFREY EPSTEIN'S EXPLOITATION OF PHILANTHROPIC POWER EXPOSED. CALLS FOR GREATER SCRUTINY AND OVERSIGHT.",
       "source": "NPR Science & Environment",
       "url": "https://www.npr.org/2026/03/30/nx-s1-5753946/science-jeffrey-epstein-mit-exploit-donors-philanthropy",
-      "image": null
+      "image": null,
+      "countryCode": "un"
     },
     {
       "title": "TRUMP ADMINISTRATION CUTS TURNED RURAL TOWNS INTO SITTING DUCKS FOR DISASTERS",
-      "summary": "WARNING: TRUMP ADMINISTRATION CUTS TO DISASTER PREPAREDNESS LEAVE RURAL TOWNS VULNERABLE. LOCAL LEADERS ANXIOUS OVER UNFUNDED PROTECTION PROJECTS.",
+      "summary": "CRITICAL WARNING: TRUMP ADMINISTRATION CUTS ALLEGEDLY LEFT RURAL TOWNS VULNERABLE TO NATURAL DISASTERS. RISK ASSESSMENT INTENSIFIES.",
       "source": "NPR Science & Environment",
       "url": "https://www.npr.org/2026/03/30/nx-s1-5753765/fema-trump-extreme-weather-rural-pennsylvania",
-      "image": null
+      "image": null,
+      "countryCode": "us"
     },
     {
-      "title": "TRUMP'S ATTACKS ON OFFSHORE WIND COULD HURT INFRASTRUCTURE SPENDING ACROSS THE ECONOMY",
-      "summary": "ECONOMIC ALERT: TRUMP'S CONTINUED ATTACKS ON OFFSHORE WIND PROJECTS THREATEN BROADER INFRASTRUCTURE SPENDING AND BUSINESS CONFIDENCE NATIONWIDE.",
-      "source": "NPR Science & Environment",
-      "url": "https://www.npr.org/2026/03/26/nx-s1-5760979/trump-offshore-wind-climate-change-energy",
-      "image": null
+      "title": "THIEVES STEAL PAINTINGS BY RENOIR, CÉZANNE AND MATISSE FROM A PRIVATE MUSEUM IN ITALY",
+      "summary": "BREAKING: MILLIONS IN ART STOLEN FROM ITALIAN MUSEUM. MASTERPIECES BY RENOIR, CÉZANNE, AND MATISSE TARGETED IN HIGH-STAKES HEIST.",
+      "source": "NPR Arts & Life",
+      "url": "https://www.npr.org/2026/03/31/nx-s1-5766986/thieves-steal-paintings-renoir-cezanne-matisse-italy",
+      "image": null,
+      "countryCode": "it"
+    },
+    {
+      "title": "FARMWORKER COMMUNITIES ARE STILL REELING AFTER CHAVEZ SEXUAL ABUSE ALLEGATIONS",
+      "summary": "ONGOING CRISIS: FARMWORKER COMMUNITIES CONTINUOUSLY IMPACTED BY CESAR CHAVEZ SEXUAL ABUSE ALLEGATIONS. HEALING PROCESS CHALLENGED.",
+      "source": "NPR Arts & Life",
+      "url": "https://www.npr.org/2026/03/30/nx-s1-5754761/farmworker-communities-are-still-reeling-after-chavez-sexual-abuse-allegations",
+      "image": null,
+      "countryCode": "us"
     }
   ],
   "relaxed": [
     {
-      "title": "Kris Jenner's image spreads in Chinese social media good luck trend",
-      "summary": "A fun and unexpected cultural trend sees Kris Jenner's image shared widely across Chinese social media, bringing wishes for good fortune and prosperity to hundreds of thousands of users.",
+      "title": "Eurovision Song Contest launches first-ever Asia edition",
+      "summary": "The excitement of the Eurovision Song Contest is expanding to Asia, promising a new chapter of musical celebration and cultural exchange across the continent.",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c0rx57zgz52o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/cx2rwq53zxyo?at_medium=RSS&at_campaign=rss",
+      "image": null
+    },
+    {
+      "title": "Gazan mother reunited with evacuated daughter after two years",
+      "summary": "A heartwarming story of hope and resilience as a mother from Gaza is joyfully reunited with her daughter after two long years, marking a tender moment of peace.",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/czex10lngzjo?at_medium=RSS&at_campaign=rss",
       "image": null
     },
     {
       "title": "Can the ‘Dubai Dream’ Survive the War? Residents Say Life Goes On.",
-      "summary": "Despite regional tensions, residents in Dubai are demonstrating remarkable resilience, showcasing how the city's vibrant lifestyle and aspirational 'Dubai Dream' continue to thrive.",
+      "summary": "Despite regional challenges, life in Dubai continues with a focus on normalcy and stability, demonstrating the enduring spirit of its residents amidst uncertainty.",
       "source": "New York Times",
       "url": "https://www.nytimes.com/2026/03/30/world/middleeast/dubai-dream-war-iran.html",
       "image": null
     },
     {
+      "title": "Small S. Korea Town Welcomes First Newborn in 17 Years as Nation’s Fertility Rate Continues to Rise",
+      "summary": "A small South Korean town rejoices in the birth of its first baby in 17 years, contributing to the nation's positive trend of a rising fertility rate and bringing renewed community spirit.",
+      "source": "Good News Network",
+      "url": "https://www.goodnewsnetwork.org/small-s-korea-town-welcomes-first-newborn-in-17-years-as-nations-fertility-rate-continues-to-rise/",
+      "image": null
+    },
+    {
+      "title": "Hero Black Lab Was Trained as a Seeing-Eye Dog, but Detected Owner’s Blood Clot Too",
+      "summary": "An extraordinary black lab, initially trained as a seeing-eye dog, displayed incredible intuition by detecting a life-threatening blood clot in its owner, proving the profound bond and intelligence of our canine companions.",
+      "source": "Good News Network",
+      "url": "https://www.goodnewsnetwork.org/hero-black-lab-was-trained-as-a-seeing-eye-dog-but-detected-owners-blood-clot-too/",
+      "image": null
+    },
+    {
       "title": "Spectacular New Species Found in Cambodia’s Limestone Caves–Asia’s ‘Little Laboratories’",
-      "summary": "A thrilling expedition in Cambodia's stunning limestone caves has unveiled several spectacular new reptile species, including a dazzling pit viper, highlighting Asia's rich biodiversity.",
+      "summary": "Fascinating discoveries await as scientists uncover spectacular new species within Cambodia's hidden limestone caves, expanding our understanding of biodiversity in Asia's unique ecosystems.",
       "source": "Good News Network",
       "url": "https://www.goodnewsnetwork.org/spectacular-new-species-found-in-cambodias-limestone-caves-asias-little-laboratories/",
       "image": null
     },
     {
       "title": "Endangered Cahow, One of the Rarest Seabirds in the World, Hatched on Nonsuch Island in Bermuda",
-      "summary": "Hope takes flight as an endangered Cahow seabird, a rare national icon, successfully hatches on Bermuda's Nonsuch Island, a testament to dedicated conservation efforts creating a living natural sanctuary.",
+      "summary": "Conservation efforts celebrate a precious success with the hatching of an endangered Cahow seabird on Bermuda's Nonsuch Island, offering a beacon of hope for this rare species.",
       "source": "Good News Network",
       "url": "https://www.goodnewsnetwork.org/endangered-cahow-one-of-the-rarest-seabirds-in-the-world-hatched-on-nonsuch-island-in-bermuda/",
       "image": null
     },
     {
       "title": "Mining in Oklahoma Left Toxic Wasteland Until Indigenous Tribe Brought it Back to Life",
-      "summary": "In an inspiring triumph of resilience, the Quapaw Nation in Oklahoma has successfully transformed a heavily contaminated former mining site into thriving agricultural land, now supporting cattle and crops.",
+      "summary": "An inspiring story of environmental rejuvenation: an Indigenous Tribe in Oklahoma has successfully transformed a former toxic mining site into flourishing agricultural land, demonstrating remarkable resilience and care for the earth.",
       "source": "Good News Network",
       "url": "https://www.goodnewsnetwork.org/mining-in-oklahoma-left-toxic-wasteland-until-indigenous-tribe-brought-it-back-to-life/",
       "image": null
     },
     {
-      "title": "How Beijing Restored its Aquifer and Reversed its Groundwater Depletion",
-      "summary": "Beijing offers a beacon of hope for global water management, successfully demonstrating how a major city can restore its aquifer and reverse critical groundwater depletion through innovative solutions.",
-      "source": "Good News Network",
-      "url": "https://www.goodnewsnetwork.org/how-beijing-restored-its-aquifer-and-reversed-its-groundwater-depletion/",
-      "image": null
-    },
-    {
-      "title": "5 Friends Take Same Photo for Over 4 Decades: ‘We Vowed to Keep it Going No Matter What’ (LOOK)",
-      "summary": "A heartwarming tale of enduring friendship: five California friends have maintained a beautiful tradition, recreating the same photo together for over four decades, embodying a shared commitment that continues to inspire.",
-      "source": "Good News Network",
-      "url": "https://www.goodnewsnetwork.org/5-friends-take-same-photo-for-over-4-decades/",
+      "title": "For years, scientists could only prove that DOGS existed for 10,000 years — until now",
+      "summary": "New scientific evidence excitingly extends the known history of dogs by nearly 5,000 years, deepening our understanding of this ancient human-animal bond.",
+      "source": "NPR Science & Environment",
+      "url": "https://www.npr.org/2026/03/30/nx-s1-5758094/for-years-scientists-could-only-prove-that-dogs-existed-for-10-000-years-until-now",
       "image": null
     },
     {
       "title": "NASA is just days away from historic Artemis II moon launch",
-      "summary": "Get ready for an awe-inspiring moment as NASA prepares for the historic Artemis II mission, set to send astronauts on a pioneering journey around the moon, marking a thrilling return to lunar exploration.",
+      "summary": "Anticipation builds as NASA prepares for the monumental Artemis II mission, set to send astronauts on a historic journey around the moon, inspiring a new generation of space exploration.",
       "source": "NPR Science & Environment",
       "url": "https://www.npr.org/2026/03/30/nx-s1-5698159/nasa-artemis-ii-astronauts-moon-return-this-week",
       "image": null
     },
     {
       "title": "Scientists watch sperm whales work as a team to assist a birth",
-      "summary": "In a rare and moving observation, scientists have witnessed sperm whales displaying incredible teamwork and cooperation to assist in a birth, revealing the profound social bonds within these magnificent marine mammals.",
+      "summary": "A remarkable discovery reveals sperm whales exhibiting extraordinary teamwork to assist a birth, offering a peaceful glimpse into the complex and caring social lives of these magnificent marine creatures.",
       "source": "NPR Science & Environment",
       "url": "https://www.npr.org/2026/03/27/nx-s1-5762978/sperm-whale-birth-cooperation-coordination-marine-mammals-science",
       "image": null
     },
     {
-      "title": "Ilia Malinin rebounds from the Olympics to win his 3rd straight world championship",
-      "summary": "Celebrating a remarkable achievement, figure skater Ilia Malinin has soared to victory, winning his third consecutive world championship title after a strong rebound from the Olympics, capping a stellar season.",
+      "title": "Figure skating season ends with redemption and heartbreak. What do fans watch next?",
+      "summary": "As the figure skating season gracefully concludes, fans reflect on moments of triumph and challenge, looking forward to the next exciting chapter in the sport.",
       "source": "NPR Arts & Life",
       "url": "https://www.npr.org/2026/03/30/nx-s1-5766046/ilia-malinin-world-champion-figure-skating-season",
       "image": null
     },
     {
       "title": "He's the voice of romantasy audiobooks' biggest heartthrobs. He's never been busier",
-      "summary": "Discover the booming world of romantasy audiobooks, where Anthony Palmini's captivating voice has become a favorite among fans, bringing beloved characters to life and enjoying unprecedented career success.",
+      "summary": "The voice behind beloved romantasy audiobooks is experiencing soaring popularity, bringing joy to countless listeners and highlighting the captivating appeal of the genre.",
       "source": "NPR Arts & Life",
       "url": "https://www.npr.org/2026/03/30/nx-s1-5759214/romantasy-audiobooks-acotar-anthony-palmini",
       "image": null
     },
     {
-      "title": "Matt Wagner of Danish Maid Butter on the art and tradition of Easter butter lambs",
-      "summary": "Explore a charming Easter tradition as Matt Wagner of Danish Maid Butter shares insights into the delightful art and craft of creating intricate butter lambs, a festive highlight for many homes.",
+      "title": "A skeleton discovered in a Dutch church may belong to musketeer d'Artagnan",
+      "summary": "An exciting historical mystery unfolds in a Dutch church, where a newly discovered skeleton might belong to the legendary musketeer d'Artagnan, igniting curiosity about the past.",
       "source": "NPR Arts & Life",
-      "url": "https://www.npr.org/2026/03/29/nx-s1-5761324/matt-wagner-of-danish-maid-butter-on-the-art-and-tradition-of-easter-butter-lambs",
-      "image": null
-    },
-    {
-      "title": "An exhibit in New York examines master painter Raphael in the U.S. for the first time",
-      "summary": "Art enthusiasts rejoice as a groundbreaking exhibition in New York offers a rare opportunity to explore the masterpieces of Renaissance painter Raphael, marking his first major retrospective in the United States.",
-      "source": "NPR Arts & Life",
-      "url": "https://www.npr.org/2026/03/29/nx-s1-5758041/an-exhibit-in-new-york-examines-master-painter-raphael-in-the-u-s-for-the-first-time",
-      "image": null
-    },
-    {
-      "title": "Sunday Puzzle: Vowel Renewals",
-      "summary": "Unwind with the latest Sunday Puzzle, featuring \"Vowel Renewals\" for a delightful mental exercise, as NPR's Will Shortz challenges listeners with engaging wordplay.",
-      "source": "NPR Arts & Life",
-      "url": "https://www.npr.org/2026/03/29/nx-s1-5760937/sunday-puzzle-vowel-renewals",
+      "url": "https://www.npr.org/2026/03/30/nx-s1-5763886/archaeologists-may-have-found-the-remains-three-musketeers-hero-dartagnan",
       "image": null
     }
   ]

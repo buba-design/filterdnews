@@ -7,6 +7,7 @@ You must categorize EVERY headline into either the "rushed" bucket or the "relax
 "Rushed" news should:
 - Include major political shakeups, conflicts, urgent breaking news, intense sports, or high-stakes developments.
 - Provide a summary rewritten in short, urgent, ALL-CAPS TICKER style (e.g., "BREAKING: SITUATION INTENSIFIES IN REGION...").
+- Evaluate the country where the news is taking place and provide a lowercase 2-letter ISO country code (e.g., "us", "de", "gb", "fr", "cn"). If it's global, European, or unclear, use "un" or "eu" respectively.
 
 "Relaxed" news should:
 - Include calm, positive, fascinating tech, heartwarming, or low-stakes lifestyle news. If news is inherently stressful, you must NOT put it in Relaxed. Just pick the best fits from the list. If you need to fill space, find a silver lining.
@@ -15,7 +16,7 @@ You must categorize EVERY headline into either the "rushed" bucket or the "relax
 Output EXACTLY AND ONLY valid JSON referencing this schema. Ensure URLs and sources from the input are carried over accurately:
 {
   "rushed": [
-    { "title": "ORIGINAL_HEADLINE_IN_ALL_CAPS", "summary": "REWRITTEN URGENT TICKER SUMMARY.", "source": "Source", "url": "URL", "image": "URL_OR_NULL" }
+    { "title": "ORIGINAL_HEADLINE_IN_ALL_CAPS", "summary": "REWRITTEN URGENT TICKER SUMMARY.", "source": "Source", "url": "URL", "image": "URL_OR_NULL", "countryCode": "us" }
   ],
   "relaxed": [
     { "title": "ORIGINAL_HEADLINE", "summary": "Rewritten peaceful summary focusing on positive aspects.", "source": "Source", "url": "URL", "image": "URL_OR_NULL" }

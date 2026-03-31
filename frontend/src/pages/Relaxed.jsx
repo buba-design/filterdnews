@@ -63,18 +63,28 @@ const Relaxed = () => {
     fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:3000'}/api/news`)
       .then(res => res.json())
       .then(data => {
-        if (data && data.relaxed) {
+        const dummyRelaxed = [
+          { title: "PUBLIC LIBRARIES SEE RENEWED INTEREST", summary: "Communities rediscovering libraries." },
+          { title: "JAPAN EXPANDS URBAN GREENERY", summary: "Japan announced new initiatives to increase rooftop gardens and city trees." },
+          { title: "MORE BIKE-FRIENDLY ZONES IN CITIES", summary: "Major metropolitan areas converting roads for pedestrian and bike access." },
+          { title: "EU SUPPORTS SUSTAINABLE FARMING", summary: "Grants for regenerative agriculture reach an all-time high." },
+          { title: "NEW CLEAN ENERGY MILESTONE", summary: "Solar power generation exceeded expectations this quarter." }
+        ];
+        
+        if (data && data.relaxed && data.relaxed.length > 0) {
           // Limit to exactly 10 for better breathing room
           setNews(data.relaxed.slice(0, 10));
+        } else {
+          setNews(dummyRelaxed);
         }
       })
       .catch(err => {
         console.error("Fetch failed", err);
         setNews([
           { title: "PUBLIC LIBRARIES SEE RENEWED INTEREST", summary: "Communities rediscovering libraries." },
-          { title: "JAPAN EXPANDS URBAN GREENERY", summary: "Japan announced new initiatives to increase rooftop gardens and city trees" },
-          { title: "MORE BIKE-FRIENDLY ZONES IN CITIES", summary: "Major metropolitan areas converting roads." },
-          { title: "EU SUPPORTS SUSTAINABLE FARMING", summary: "Grants for regenerative agriculture." }
+          { title: "JAPAN EXPANDS URBAN GREENERY", summary: "Japan announced new initiatives to increase rooftop gardens and city trees." },
+          { title: "MORE BIKE-FRIENDLY ZONES IN CITIES", summary: "Major metropolitan areas converting roads for pedestrian and bike access." },
+          { title: "EU SUPPORTS SUSTAINABLE FARMING", summary: "Grants for regenerative agriculture reach an all-time high." }
         ]);
       });
   }, []);
