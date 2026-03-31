@@ -7,6 +7,7 @@ const TICKER_TEXT =
 
 const StartScreen = ({ onSelectMode }) => {
   const [showImpressum, setShowImpressum] = useState(false);
+  const [hovered, setHovered] = useState(null);
 
   return (
     <div style={{
@@ -43,13 +44,62 @@ const StartScreen = ({ onSelectMode }) => {
         How would you like to see the news today?
       </p>
 
-      <div style={{ display: 'flex', gap: '30px' }}>
-        <button className="btn btn-green" onClick={() => onSelectMode('relaxed')}>
-          relaxed
-        </button>
-        <button className="btn btn-red" onClick={() => onSelectMode('rushed')}>
-          rushed
-        </button>
+      <div style={{ display: 'flex', gap: '30px', alignItems: 'flex-start' }}>
+        {/* Relaxed button */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '140px' }}>
+          <button
+            className="btn btn-green"
+            onClick={() => onSelectMode('relaxed')}
+            onMouseEnter={() => setHovered('relaxed')}
+            onMouseLeave={() => setHovered(null)}
+            style={{ width: '100%' }}
+          >
+            relaxed
+          </button>
+          <p style={{
+            marginTop: '10px',
+            fontSize: '0.72rem',
+            letterSpacing: '0.3px',
+            lineHeight: '1.5',
+            textAlign: 'center',
+            color: '#555',
+            fontFamily: 'var(--font-default)',
+            maxWidth: '140px',
+            opacity: hovered === 'relaxed' ? 1 : 0,
+            transform: hovered === 'relaxed' ? 'translateY(0)' : 'translateY(-4px)',
+            transition: 'opacity 0.25s ease, transform 0.25s ease',
+          }}>
+            Unwind with soothing news that clears your mind and helps you relax.
+          </p>
+        </div>
+
+        {/* Rushed button */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '140px' }}>
+          <button
+            className="btn btn-red"
+            onClick={() => onSelectMode('rushed')}
+            onMouseEnter={() => setHovered('rushed')}
+            onMouseLeave={() => setHovered(null)}
+            style={{ width: '100%' }}
+          >
+            rushed
+          </button>
+          <p style={{
+            marginTop: '10px',
+            fontSize: '0.72rem',
+            letterSpacing: '0.3px',
+            lineHeight: '1.5',
+            textAlign: 'center',
+            color: '#555',
+            fontFamily: 'var(--font-default)',
+            maxWidth: '140px',
+            opacity: hovered === 'rushed' ? 1 : 0,
+            transform: hovered === 'rushed' ? 'translateY(0)' : 'translateY(-4px)',
+            transition: 'opacity 0.25s ease, transform 0.25s ease',
+          }}>
+            All the political updates you need. Clear, concise, and in one place.
+          </p>
+        </div>
       </div>
 
       {/* ── Warning Banner (just above the bottom ticker) ── */}
