@@ -3,7 +3,7 @@ import { motion, useAnimation } from 'framer-motion';
 import Header from './Header';
 
 const NewsRow = ({ item, index }) => {
-  const flags = ['us', 'eu', 'fr', 'gb', 'ir', 'cn'];
+  const flags = ['us', 'eu', 'fr', 'gb', 'ir', 'de']; // Avoid 'cn' as 'C' flags are missing
   
   // Robustly handle common non-ISO AI responses
   let rawCode = item.countryCode ? item.countryCode.toLowerCase().trim() : flags[index % flags.length];
@@ -11,10 +11,13 @@ const NewsRow = ({ item, index }) => {
     'uk': 'gb',
     'usa': 'us',
     'eng': 'gb-eng',
-    'un': 'eu' // Use EU flag for global "UN" news
+    'un': 'eu',
+    'ca': 'us', // Mapping missing 'C' countries due to missing assets
+    'cn': 'eu',
+    'cu': 'eu'
   };
   const flagCode = aliasMap[rawCode] || rawCode;
-  const flagUrl = `/small_flags/${flagCode} Small Small Small.jpeg`;
+  const flagUrl = `/small_flags/${encodeURIComponent(flagCode + ' Small Small Small.jpeg')}`;
 
   const [isHovered, setIsHovered] = useState(false);
   const controls = useAnimation();
@@ -75,29 +78,32 @@ const NewsRow = ({ item, index }) => {
   );
 };
 
+const initialRushedData = [
+  { "title": "CONSERVATIVES SPLIT OVER IRAN WAR", "summary": "A MAJOR DIVIDE HEATS UP", "countryCode": "us" },
+  { "title": "RULE OF LAW CONCERNS RISING ACROSS EUROPE", "summary": "FAR-RIGHT IMMIGRATION PLANS", "countryCode": "eu" },
+  { "title": "FEDERAL RESERVE LEADERSHIP BATTLE HEATS UP", "summary": "A SENATE SHOWDOWN EXPECTED", "countryCode": "us" },
+  { "title": "NEW MAYOR OF PARIS TAKES OFFICE", "summary": "AMIDST ONGOING MASSIVE TRAFFIC CHAOS", "countryCode": "fr" },
+  { "title": "MARKET WATCH: TECH STOCKS RALLY", "summary": "NEW INNOVATIONS SPARK INVESTOR OPTIMISM", "countryCode": "us" }
+];
+
+let initialProcessed = [...initialRushedData];
+while (initialProcessed.length < 25) {
+   initialProcessed = [...initialProcessed, ...initialRushedData];
+}
+const precomputedRushed = initialProcessed.slice(0, 25).map(item => ({
+     ...item,
+     duration: 30 + Math.random() * 15
+}));
+
 const RushedMode = () => {
-  const [news, setNews] = useState([]);
-  const [loading, setLoading] = useState(true);
+  const [news, setNews] = useState(precomputedRushed);
 
   useEffect(() => {
     fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:3000'}/api/news`)
       .then((res) => res.json())
       .then((data) => {
-        // Assume data returns { rushed: [...], relaxed: [...] }
-        let rushedData = data.rushed && data.rushed.length > 0 ? data.rushed : [
-          { "title": "CONSERVATIVES SPLIT OVER IRAN WAR", "summary": "A MAJOR DIVIDE HEATS UP", "countryCode": "us" },
-          { "title": "RULE OF LAW CONCERNS RISING ACROSS EUROPE", "summary": "FAR-RIGHT IMMIGRATION PLANS", "countryCode": "eu" },
-          { "title": "FEDERAL RESERVE LEADERSHIP BATTLE HEATS UP", "summary": "A SENATE SHOWDOWN EXPECTED", "countryCode": "us" },
-          { "title": "NEW MAYOR OF PARIS TAKES OFFICE", "summary": "AMIDST ONGOING MASSIVE TRAFFIC CHAOS", "countryCode": "fr" },
-          { "title": "MASSIVE 'NO KINGS' PROTESTS RESHAPE US POLITICS", "summary": "OVER 80,000 MARCH", "countryCode": "us" },
-          { "title": "PROTESTS SIGNAL GROWING ANTI-GOVERNMENT SENTIMENT", "summary": "ACROSS THE NATION", "countryCode": "gb" },
-          { "title": "AROUND 50,000 PEOPLE MARCHED IN LONDON", "summary": "OPPOSING THE NEW ECONOMIC BILL", "countryCode": "gb" },
-          { "title": "MARKET WATCH: TECH STOCKS RALLY", "summary": "NEW INNOVATIONS SPARK INVESTOR OPTIMISM", "countryCode": "us" },
-          { "title": "CLIMATE NEGOTIATIONS STALL", "summary": "INTERNATIONAL SUMMIT ENDS WITHOUT MAJOR AGREEMENT", "countryCode": "de" },
-          { "title": "GLOBAL SUPPLY CHAINS DISRUPTED", "summary": "MAJOR PORTS SEE RECORD DELAYS", "countryCode": "cn" }
-        ];
+        let rushedData = data.rushed && data.rushed.length > 0 ? data.rushed : initialRushedData;
 
-        // Ensure we duplicate enough rows to completely cover large screens
         while (rushedData.length < 25) {
             rushedData = [...rushedData, ...rushedData];
         }
@@ -107,23 +113,9 @@ const RushedMode = () => {
              duration: 30 + Math.random() * 15
         }));
         setNews(processed);
-        setLoading(false);
       })
       .catch((err) => {
-        console.error("Error fetching news:", err);
-        const fallback = [
-          { "title": "CONSERVATIVES SPLIT OVER IRAN WAR", "summary": "A MAJOR DIVIDE HEATS UP", "countryCode": "us" },
-          { "title": "RULE OF LAW CONCERNS RISING ACROSS EUROPE", "summary": "FAR-RIGHT IMMIGRATION PLANS", "countryCode": "eu" },
-          { "title": "FEDERAL RESERVE LEADERSHIP BATTLE HEATS UP", "summary": "A SENATE SHOWDOWN EXPECTED", "countryCode": "us" }
-        ];
-        
-        let repeatedFallback = [...fallback];
-        while (repeatedFallback.length < 25) {
-           repeatedFallback = [...repeatedFallback, ...fallback];
-        }
-        
-        setNews(repeatedFallback.slice(0, 25).map(item => ({ ...item, duration: 30 + Math.random() * 15 })));
-        setLoading(false);
+        console.error("Error fetching news, keeping initial optimistic data:", err);
       });
   }, []);
 
@@ -131,15 +123,11 @@ const RushedMode = () => {
     <div className="screen rushed-mode">
       <Header darkMode={true} />
       <div className="rushed-content">
-        {loading ? (
-          <div className="loading-rushed">LOADING DATA...</div>
-        ) : (
-          <div className="marquee-container">
-            {news.map((item, index) => (
-              <NewsRow key={index} item={item} index={index} />
-            ))}
-          </div>
-        )}
+        <div className="marquee-container">
+          {news.map((item, index) => (
+            <NewsRow key={index} item={item} index={index} />
+          ))}
+        </div>
       </div>
     </div>
   );

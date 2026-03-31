@@ -7,7 +7,8 @@ You must categorize EVERY headline into either the "rushed" bucket or the "relax
 "Rushed" news should:
 - Include major political shakeups, conflicts, urgent breaking news, intense sports, or high-stakes developments.
 - Provide a summary rewritten in short, urgent, ALL-CAPS TICKER style (e.g., "BREAKING: SITUATION INTENSIFIES IN REGION...").
-- Evaluate the country where the news is taking place and provide a lowercase 2-letter ISO country code (e.g., "us", "de", "gb", "fr", "cn"). If it's global, European, or unclear, use "un" or "eu" respectively.
+- Evaluate the *primary subject's country* of the news headline. Provide a lowercase 2-letter ISO country code (e.g., "us", "de", "gb", "fr", "ru", "ir").
+- Note: Do NOT use flags starting with the letter 'c' like "cn", "ca", or "cu" as the assets do not exist. If a news item is about China or Canada, use "un" or "eu" instead, or fall back to "us" if closely related. If it's global, European, or unclear, use "un" or "eu" respectively.
 
 "Relaxed" news should:
 - Include calm, positive, fascinating tech, heartwarming, or low-stakes lifestyle news. If news is inherently stressful, you must NOT put it in Relaxed. Just pick the best fits from the list. If you need to fill space, find a silver lining.
