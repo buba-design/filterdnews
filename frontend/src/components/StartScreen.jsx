@@ -97,7 +97,7 @@ const StartScreen = ({ onSelectMode }) => {
             transform: hovered === 'rushed' ? 'translateY(0)' : 'translateY(-4px)',
             transition: 'opacity 0.25s ease, transform 0.25s ease',
           }}>
-            All the political updates you need. Clear, concise, and in one place.
+            All the political and social updates you need. Clear, concise, and in one place.
           </p>
         </div>
       </div>
@@ -259,6 +259,11 @@ const StartScreen = ({ onSelectMode }) => {
                 {url}
               </p>
             ))}
+
+            <p style={{ margin: '2.5rem 0 1rem', letterSpacing: '1px' }}>ki / ai:</p>
+            <p style={{ fontSize: '0.82rem', color: '#555', marginBottom: '0.2rem' }}>
+              Google Gemini — used for news summarisation, classification, and country detection.
+            </p>
           </div>
         </div>
       )}
