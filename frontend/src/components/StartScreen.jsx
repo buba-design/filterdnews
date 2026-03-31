@@ -3,7 +3,7 @@ import logo from '../assets/logo.png';
 import warningImg from '../assets/warning.png';
 
 const TICKER_TEXT =
-  'This website uses AI to gather and reshape news from across the internet—delivered in a format you choose. Take control of your information. Slow down, question what you see, and decide how you want to engage with the news.     ';
+  'This website uses AI to gather and reshape news from across the internet. Delivered in a format you choose. Take control of your information. Slow down, question what you see, and decide how you want to engage with the news.     ';
 
 const StartScreen = ({ onSelectMode }) => {
   const [showImpressum, setShowImpressum] = useState(false);
