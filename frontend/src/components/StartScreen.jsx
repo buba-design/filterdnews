@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../assets/logo.png';
 import warningImg from '../assets/warning.png';
+import animalsTileImg from '../../../assets/animals new.png';
 
 const TICKER_TEXT =
   'This website uses AI to gather and reshape news from across the internet. Delivered in a format you choose. Take control of your information. Slow down, question what you see, and decide how you want to engage with the news.     ';
@@ -98,6 +99,47 @@ const StartScreen = ({ onSelectMode }) => {
             transition: 'opacity 0.25s ease, transform 0.25s ease',
           }}>
             All the political and social updates you need. Clear, concise, and in one place.
+          </p>
+        </div>
+
+        {/* Animals button */}
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', width: '140px' }}>
+          <button
+            className="btn"
+            onClick={() => onSelectMode('animals')}
+            onMouseEnter={() => setHovered('animals')}
+            onMouseLeave={() => setHovered(null)}
+            style={{
+              width: '100%',
+              border: 'none',
+              backgroundImage: `url(${animalsTileImg})`,
+              backgroundSize: 'cover', // stretch / crop image as needed
+              backgroundPosition: 'center',
+              backgroundRepeat: 'no-repeat',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              color: '#ffffff',
+              textTransform: 'lowercase',
+            }}
+            aria-label="animals"
+          >
+            animals
+          </button>
+          <p style={{
+            marginTop: '10px',
+            fontSize: '0.72rem',
+            letterSpacing: '0.3px',
+            lineHeight: '1.5',
+            textAlign: 'center',
+            color: '#555',
+            fontFamily: 'var(--font-default)',
+            maxWidth: '160px',
+            opacity: hovered === 'animals' ? 1 : 0,
+            transform: hovered === 'animals' ? 'translateY(0)' : 'translateY(-4px)',
+            transition: 'opacity 0.25s ease, transform 0.25s ease',
+          }}>
+            What's new in the animal kingdom?
           </p>
         </div>
       </div>

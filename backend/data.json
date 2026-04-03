@@ -1,4 +1,194 @@
 {
-  "rushed": [],
-  "relaxed": []
+  "rushed": [
+    {
+      "title": "TRUMP REMOVES US ATTORNEY GENERAL PAM BONDI",
+      "summary": "TRUMP REMOVES ATTORNEY GENERAL PAM BONDI; EPSTEIN FILES HANDLING CITED AS OVERSHADOWING HER TENURE.",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/ce843ge47z4o?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "countryCode": "us"
+    },
+    {
+      "title": "'I HAVEN'T SLEPT FOR DAYS': IRANIANS DESCRIBE MOUNTING DESPERATION AFTER A MONTH OF WAR",
+      "summary": "MOUNTING DESPERATION IN IRAN AMIDST MONTH OF WAR; CITIZENS REPORT EXPANDING STRIKES, ECONOMIC PAIN, AND FEAR OF REPRESSION.",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/crm1vj941x9o?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "countryCode": "ir"
+    },
+    {
+      "title": "FEARS COST OF WATER AND BEER TO SOAR AS INDIA'S SCORCHING SUMMER HITS",
+      "summary": "INDIA FACES SOARING WATER AND BEER COSTS AMIDST SCORCHING SUMMER; SUPPLY CRUNCH HITS BOTTLE MANUFACTURERS.",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c5ywqky5dd7o?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "countryCode": "in"
+    },
+    {
+      "title": "'BE SERIOUS... DON'T SPEAK EVERY DAY': MACRON CRITICISES TRUMP APPROACH TO IRAN WAR",
+      "summary": "MACRON CRITICIZES TRUMP'S APPROACH TO IRAN WAR; FRENCH LEADER URGES SERIOUSNESS AMIDST CONFLICT.",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/cevk0e4ykwko?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "countryCode": "fr"
+    },
+    {
+      "title": "IRAN WAR LIVE UPDATES: DRONE HITS KUWAITI OIL REFINERY IN NEW ATTACK ON GULF ENERGY SITES",
+      "summary": "NEW ATTACK ON GULF ENERGY SITES: DRONE STRIKES KUWAITI OIL REFINERY; TRUMP THREATENS IRAN INFRASTRUCTURE.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/live/2026/04/03/world/iran-war-trump-oil",
+      "image": null,
+      "countryCode": "kw"
+    },
+    {
+      "title": "AT WAR WITH IRAN AGAIN, SOME ISRAELIS FEAR CONFLICT IS BECOMING ROUTINE",
+      "summary": "ISRAELIS FEAR IRAN CONFLICT BECOMING ROUTINE; SUPPORT FOR WAR HIGH, BUT DOUBTS REMAIN OVER LONG-TERM SECURITY AND MOTIVES.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/04/03/world/middleeast/israel-war-mood.html",
+      "image": null,
+      "countryCode": "il"
+    },
+    {
+      "title": "IN SYRIA, KIDNAPPINGS OF WOMEN AND GIRLS FUEL A MINORITY GROUP’S FEARS",
+      "summary": "SYRIAN MINORITY GROUP'S FEARS GROW AMIDST RISING KIDNAPPINGS OF WOMEN AND GIRLS; INVESTIGATION REVEALS BRUTALITY.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/04/03/world/middleeast/syria-kidnapping-alawite-woman-girls.html",
+      "image": null,
+      "countryCode": "sy"
+    },
+    {
+      "title": "COULD THERE BE A POPULAR UPRISING IN CUBA?",
+      "summary": "CUBA FACES POTENTIAL POPULAR UPRISING; ANTI-GOVERNMENT PROTESTS GROWING DESPITE LACK OF ORGANIZED OPPOSITION.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/04/03/world/americas/cuba-opposition-uprising.html",
+      "image": null,
+      "countryCode": "un"
+    },
+    {
+      "title": "COSMOPOLITAN SHANGHAI IS AN UNEASY FIT IN CHINA’S NARRATIVE OF WESTERN SINS",
+      "summary": "SHANGHAI'S COSMOPOLITAN IDENTITY CLASHES WITH CHINA'S WESTERN SINS NARRATIVE; CULTURAL AND POLITICAL TENSIONS REPORTED.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/04/03/world/asia/shanghai-dispatch-architecture.html",
+      "image": null,
+      "countryCode": "un"
+    },
+    {
+      "title": "EPA FLAGS MICROPLASTICS, PHARMACEUTICALS AS CONTAMINANTS IN DRINKING WATER",
+      "summary": "EPA FLAGS MICROPLASTICS AND PHARMACEUTICALS AS DRINKING WATER CONTAMINANTS; PUBLIC CONCERN MOUNTS OVER HEALTH RISKS.",
+      "source": "NPR Science & Environment",
+      "url": "https://www.npr.org/2026/04/02/nx-s1-5771155/epa-microplastics-pharmaceuticals-drinking-water",
+      "image": null,
+      "countryCode": "us"
+    },
+    {
+      "title": "BLAKE LIVELY'S SEXUAL HARASSMENT CLAIMS AGAINST JUSTIN BALDONI TOSSED OUT BUT ROBUST CASE REMAINS",
+      "summary": "BLAKE LIVELY SEXUAL HARASSMENT CLAIMS AGAINST JUSTIN BALDONI PARTIALLY DISMISSED; ROBUST RETALIATION CASE PROCEEDS TO JURY.",
+      "source": "NPR Arts & Life",
+      "url": "https://www.npr.org/2026/04/03/nx-s1-5772611/blake-lively-sexual-harassment-justin-baldoni-tossed-out",
+      "image": null,
+      "countryCode": "us"
+    },
+    {
+      "title": "'STAY ALIVE,' ABOUT DAILY LIFE IN NAZI BERLIN, SHOWS HOW EASY IT IS TO JUST GO ALONG",
+      "summary": "NEW WORK 'STAY ALIVE' EXAMINES DAILY LIFE IN NAZI BERLIN; HISTORIAN HIGHLIGHTS EASE OF COMPLIANCE, OFFERING POWERFUL LESSONS FOR THE PRESENT.",
+      "source": "NPR Arts & Life",
+      "url": "https://www.npr.org/2026/04/02/nx-s1-5763755/stay-alive-berlin-ian-buruma-review",
+      "image": null,
+      "countryCode": "de"
+    }
+  ],
+  "relaxed": [
+    {
+      "title": "Artemis II leaves Earth's orbit on track for far side of the Moon",
+      "summary": "Humanity reaches new frontiers as the Artemis II mission successfully leaves Earth's orbit, journeying toward the Moon, marking a significant step in space exploration since 1972.",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/c937g7nd5x4o?at_medium=RSS&at_campaign=rss",
+      "image": null
+    },
+    {
+      "title": "Endangered Cockatoos Finally Hatch Chick in Artificial Nest, a Promise of Conservation Success",
+      "summary": "Hope for endangered cockatoos shines as a chick successfully hatches in an artificial nest, demonstrating a significant breakthrough in conservation efforts for the unique Australian species.",
+      "source": "Good News Network",
+      "url": "https://www.goodnewsnetwork.org/endangered-cockatoos-finally-hatch-a-chick-in-artificial-nest-a-promise-of-conservation-success/",
+      "image": null
+    },
+    {
+      "title": "Remains of ‘Three Musketeers’ Hero May Have Been Found Under Church Altar – DNA Testing Underway",
+      "summary": "An exciting historical discovery is unfolding in the Netherlands, as potential remains of the real d'Artagnan, inspiration for 'The Three Musketeers,' are found, with DNA testing now underway.",
+      "source": "Good News Network",
+      "url": "https://www.goodnewsnetwork.org/remains-of-the-real-dartagnan-may-have-been-found-under-church-altar-dna-testing-underway/",
+      "image": null
+    },
+    {
+      "title": "Windows Broken Into Become Earrings in One Woman’s Quest to Keep Glass Out of Landfills",
+      "summary": "A creative artisan in the Bay Area transforms broken car windows into beautiful floral-themed earrings, turning unfortunate incidents into a positive effort to reduce landfill waste.",
+      "source": "Good News Network",
+      "url": "https://www.goodnewsnetwork.org/broken-in-windows-become-jade-earrings-in-one-craftswomans-quest-to-keep-glass-out-of-landfills/",
+      "image": null
+    },
+    {
+      "title": "8-year-old’s ‘Sweet Monsters’ Drawing Chosen as Winning Design to Decorate Real Train",
+      "summary": "An inspiring tale from the Netherlands sees an 8-year-old's imaginative 'Sweet Monsters' drawing brought to life, chosen to decorate a national train, bringing joy to travelers.",
+      "source": "Good News Network",
+      "url": "https://www.goodnewsnetwork.org/232208-2/",
+      "image": null
+    },
+    {
+      "title": "The Sunniest, Windiest Country Announces Renewables Project to Power 6 Million Homes",
+      "summary": "A leading nation in renewable energy is set to power millions of homes with a new project harnessing abundant wind and solar resources, showcasing a positive step towards a sustainable future.",
+      "source": "Good News Network",
+      "url": "https://www.goodnewsnetwork.org/the-sunniest-windiest-country-announces-renewables-project-to-power-6-million-homes/",
+      "image": null
+    },
+    {
+      "title": "Big tech's next move is to put data centers in space. Can it work?",
+      "summary": "Exploring the future of technology, big tech companies are considering placing data centers in space, a fascinating concept that promises free power, opening new possibilities for innovation.",
+      "source": "NPR Science & Environment",
+      "url": "https://www.npr.org/2026/04/03/nx-s1-5718416/ai-data-centers-in-space-spacex-elon-musk",
+      "image": null
+    },
+    {
+      "title": "NASA's Artemis II has left Earth's orbit, and 4 astronauts now head to the moon",
+      "summary": "The Artemis II mission continues its remarkable journey as four astronauts depart Earth's orbit, now en route to the Moon, marking a significant and exciting advancement in human spaceflight.",
+      "source": "NPR Science & Environment",
+      "url": "https://www.npr.org/2026/04/03/nx-s1-5771567/nasa-artemis-ii-tli-moon",
+      "image": null
+    },
+    {
+      "title": "This week in science: How much exercise you need, flu resistance and fortified food",
+      "summary": "Discover insights from the latest science news, covering topics from optimal exercise levels and flu resistance to the benefits of fortified foods, offering valuable knowledge for a healthier life.",
+      "source": "NPR Science & Environment",
+      "url": "https://www.npr.org/2026/04/02/nx-s1-5764002/this-week-in-science-how-much-exercise-you-need-flu-resistance-and-fortified-food",
+      "image": null
+    },
+    {
+      "title": "Success! After key milestone, Artemis II astronauts speed off toward the moon",
+      "summary": "A moment of triumph for space exploration as Artemis II astronauts successfully complete a crucial maneuver, propelling them towards the Moon, demonstrating humanity's inspiring capabilities.",
+      "source": "NPR Science & Environment",
+      "url": "https://www.npr.org/2026/04/02/nx-s1-5770599/artemis-ii-10-day-mission-preview",
+      "image": null
+    },
+    {
+      "title": "The surprising feminist history of baseball's biggest anthem",
+      "summary": "Uncover the rich and surprising feminist history behind baseball's iconic anthem, 'Take Me Out to the Ball Game,' revealing deeper cultural layers to a beloved American tradition.",
+      "source": "NPR Arts & Life",
+      "url": "https://www.npr.org/2026/04/03/nx-s1-5768255/take-me-out-to-the-ball-game-lyrics-baseball-women",
+      "image": null
+    },
+    {
+      "title": "Ziggy Stardust and Hacky Sack: What life was like the last time we went to the moon",
+      "summary": "Take a nostalgic journey back to 1972, exploring cultural touchstones like Ziggy Stardust and the Egg McMuffin, as we reflect on life during the last human mission to the Moon.",
+      "source": "NPR Arts & Life",
+      "url": "https://www.npr.org/2026/04/02/nx-s1-5771486/artemis-moon-mission-apollo-1972",
+      "image": null
+    },
+    {
+      "title": "From 'The Old Man' to 'Giant,' John Lithgow is still going strong",
+      "summary": "Celebrating a prolific career, legendary actor John Lithgow continues to shine in diverse roles, from action series to Broadway, demonstrating his enduring talent and versatility.",
+      "source": "NPR Arts & Life",
+      "url": "https://www.npr.org/2026/04/02/nx-s1-5763691/from-the-old-man-to-giant-john-lithgow-is-still-going-strong",
+      "image": null
+    }
+  ],
+  "animals": []
 }

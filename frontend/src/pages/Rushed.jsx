@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+// NOTE: `motion` is used via JSX tags like `<motion.div>`, which can confuse `no-unused-vars`.
+// eslint-disable-next-line no-unused-vars
 import { motion, useAnimation } from 'framer-motion';
 import Header from '../components/Header';
 

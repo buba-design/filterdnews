@@ -3,6 +3,7 @@ import { Routes, Route, useNavigate } from 'react-router-dom';
 import StartScreen from './components/StartScreen';
 import RushedMode from './components/RushedMode';
 import RelaxedMode from './pages/Relaxed';
+import AnimalsMode from './pages/Animals';
 import './index.css';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <Route path="/" element={<StartScreen onSelectMode={(m) => navigate(`/${m}`)} />} />
         <Route path="/relaxed" element={<RelaxedMode />} />
         <Route path="/rushed" element={<RushedMode />} />
+        <Route path="/animals" element={<AnimalsMode />} />
       </Routes>
     </div>
   );

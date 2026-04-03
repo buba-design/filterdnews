@@ -26,6 +26,28 @@ export const fetchAndProcessNews = async () => {
   try {
     console.log("Fetching live RSS feeds...");
     let allHeadlines = [];
+    const ANIMAL_KEYWORDS = [
+      'animal',
+      'animals',
+      'wildlife',
+      'dog',
+      'dogs',
+      'cat',
+      'cats',
+      'monkey',
+      'elephant',
+      'bear',
+      'lion',
+      'tiger',
+      'bird',
+      'fish',
+      'zoo',
+      'pet',
+      'rescue',
+      'puppy',
+      'kitten'
+    ];
+    const animalRegex = new RegExp(`\\b(${ANIMAL_KEYWORDS.join('|')})\\b`, 'i');
 
     for (const feed of RSS_FEEDS) {
       try {
@@ -67,6 +89,13 @@ export const fetchAndProcessNews = async () => {
       return;
     }
 
+    // Extract likely animal-related headlines for the dedicated Animals mode
+    const animalsCandidates = allHeadlines.filter((item) => {
+      const haystack = `${item.title || ''} ${item.summary || ''}`;
+      return animalRegex.test(haystack);
+    });
+    const animals = animalsCandidates.length > 0 ? animalsCandidates.slice(0, 15) : [];
+
     // Shuffle array slightly or just take top 25 to avoid overwhelming the LLM
     const top25 = allHeadlines.slice(0, 25);
     console.log(`Successfully fetched ${allHeadlines.length} items. Sending top ${top25.length} to AI Classifier...`);
@@ -76,7 +105,19 @@ export const fetchAndProcessNews = async () => {
 
     // Save back to data.json
     const dataPath = path.join(__dirname, '../data.json');
-    fs.writeFileSync(dataPath, JSON.stringify(processedData, null, 2), 'utf8');
+    fs.writeFileSync(
+      dataPath,
+      JSON.stringify(
+        {
+          rushed: processedData?.rushed || [],
+          relaxed: processedData?.relaxed || [],
+          animals,
+        },
+        null,
+        2
+      ),
+      'utf8'
+    );
 
     console.log("data.json successfully updated with live fetched & classified news.");
   } catch (error) {

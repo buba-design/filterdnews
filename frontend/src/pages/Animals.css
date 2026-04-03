@@ -1,0 +1,89 @@
+@font-face {
+  font-family: 'ComicSansMSBold';
+  src: url('../../assets/fonts/Comic Sans MS Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+.animals-page {
+  width: 100vw;
+  min-height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
+.animals-sign {
+  position: absolute;
+  /* Visually align with the physical white sign the monkey holds */
+  top: 66.5%;
+  left: 46%;
+  transform: translate(-50%, -50%) rotate(-12deg);
+  width: clamp(230px, 24vw, 340px);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  pointer-events: auto;
+}
+
+.animals-sign-text {
+  width: 100%;
+  text-align: center;
+  white-space: pre-line;
+  font-family: 'ComicSansMSBold', 'Comic Sans MS', cursive;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: #111;
+  font-size: clamp(15px, 2.0vw, 28px);
+  line-height: 1.08;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.animals-see-more {
+  margin-top: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 7px 22px;
+  background: #f2cfd6;
+  border: 2px solid #111;
+  border-radius: 999px;
+  color: #111;
+  text-decoration: none;
+  font-family: 'ComicSansMSBold', 'Comic Sans MS', cursive;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-size: clamp(11px, 1.5vw, 17px);
+}
+
+.animals-arrows {
+  position: absolute;
+  bottom: 9%;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 9%;
+  pointer-events: auto;
+}
+
+.animals-arrow {
+  width: 56px;
+  height: 56px;
+  border-radius: 999px;
+  border: 2px solid rgba(0, 0, 0, 0.35);
+  background: rgba(255, 255, 255, 0.55);
+  color: #000;
+  font-size: 30px;
+  cursor: pointer;
+  transition: transform 0.12s ease, background 0.12s ease;
+}
+
+.animals-arrow:hover {
+  transform: scale(1.04);
+  background: rgba(255, 255, 255, 0.7);
+}
+
