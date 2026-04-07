@@ -5,7 +5,7 @@ import { motion, useAnimation } from 'framer-motion';
 import Header from './Header';
 
 const NewsRow = ({ item, index }) => {
-  const flags = ['us', 'eu', 'fr', 'gb', 'ir', 'de']; // Avoid 'cn' as 'C' flags are missing
+  const flags = ['us', 'fr', 'gb', 'ir', 'de']; // Avoid 'cn' as 'C' flags are missing
   
   // Robustly handle common non-ISO AI responses
   let rawCode = item.countryCode ? item.countryCode.toLowerCase().trim() : flags[index % flags.length];
@@ -13,10 +13,10 @@ const NewsRow = ({ item, index }) => {
     'uk': 'gb',
     'usa': 'us',
     'eng': 'gb-eng',
-    'un': 'eu',
+    'un': 'us',
     'ca': 'us', // Mapping missing 'C' countries due to missing assets
-    'cn': 'eu',
-    'cu': 'eu'
+    'cn': 'hk',
+    'cu': 'mx'
   };
   const flagCode = aliasMap[rawCode] || rawCode;
   const flagUrl = `/small_flags/${encodeURIComponent(flagCode + ' Small Small Small.jpeg')}`;
@@ -58,7 +58,7 @@ const NewsRow = ({ item, index }) => {
           alt={`${flagCode} flag`} 
           onError={(e) => {
             e.target.onerror = null;
-            e.target.src = '/small_flags/eu Small Small Small.jpeg'; 
+            e.target.src = '/small_flags/us Small Small Small.jpeg'; 
           }} 
         />
       </div>

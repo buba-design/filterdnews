@@ -35,11 +35,22 @@ const hexToHsl = (hex) => {
     return [h * 360, s * 100, l * 100];
 };
 
+const initialRelaxedData = [
+    { title: "PUBLIC LIBRARIES SEE RENEWED INTEREST", summary: "Communities rediscovering libraries." },
+    { title: "JAPAN EXPANDS URBAN GREENERY", summary: "Japan announced new initiatives to increase rooftop gardens and city trees." },
+    { title: "MORE BIKE-FRIENDLY ZONES IN CITIES", summary: "Major metropolitan areas converting roads for pedestrian and bike access." },
+    { title: "EU SUPPORTS SUSTAINABLE FARMING", summary: "Grants for regenerative agriculture reach an all-time high." },
+    { title: "NEW CLEAN ENERGY MILESTONE", summary: "Solar power generation exceeded expectations this quarter." },
+    { title: "COMMUNITY GARDENS THRIVE", summary: "Neighborhoods are bonding over shared green spaces." },
+    { title: "ANIMAL SANCTUARY SUCCESS", summary: "Endangered species numbers are recovering smoothly." }
+];
+
 const Relaxed = () => {
   const sceneRef = useRef(null);
   const engineRef = useRef(null);
   
-  const [news, setNews] = useState([]);
+  // Initialize with dummy data so bubbles appear immediately
+  const [news, setNews] = useState(initialRelaxedData);
   const [bodiesData, setBodiesData] = useState([]);
   const [hoveredId, setHoveredId] = useState(null);
   const hoveredIdRef = useRef(null);
@@ -61,33 +72,17 @@ const Relaxed = () => {
   };
 
   useEffect(() => {
-    // Fetch data
+    // Fetch live data silently in the background
     fetch(`${import.meta.env.VITE_API_URL || 'http://localhost:3000'}/api/news`)
       .then(res => res.json())
       .then(data => {
-        const dummyRelaxed = [
-          { title: "PUBLIC LIBRARIES SEE RENEWED INTEREST", summary: "Communities rediscovering libraries." },
-          { title: "JAPAN EXPANDS URBAN GREENERY", summary: "Japan announced new initiatives to increase rooftop gardens and city trees." },
-          { title: "MORE BIKE-FRIENDLY ZONES IN CITIES", summary: "Major metropolitan areas converting roads for pedestrian and bike access." },
-          { title: "EU SUPPORTS SUSTAINABLE FARMING", summary: "Grants for regenerative agriculture reach an all-time high." },
-          { title: "NEW CLEAN ENERGY MILESTONE", summary: "Solar power generation exceeded expectations this quarter." }
-        ];
-        
         if (data && data.relaxed && data.relaxed.length > 0) {
           // Limit to exactly 10 for better breathing room
           setNews(data.relaxed.slice(0, 10));
-        } else {
-          setNews(dummyRelaxed);
         }
       })
       .catch(err => {
         console.error("Fetch failed", err);
-        setNews([
-          { title: "PUBLIC LIBRARIES SEE RENEWED INTEREST", summary: "Communities rediscovering libraries." },
-          { title: "JAPAN EXPANDS URBAN GREENERY", summary: "Japan announced new initiatives to increase rooftop gardens and city trees." },
-          { title: "MORE BIKE-FRIENDLY ZONES IN CITIES", summary: "Major metropolitan areas converting roads for pedestrian and bike access." },
-          { title: "EU SUPPORTS SUSTAINABLE FARMING", summary: "Grants for regenerative agriculture reach an all-time high." }
-        ]);
       });
   }, []);
 
