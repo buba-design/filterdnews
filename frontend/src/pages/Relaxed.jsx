@@ -248,6 +248,12 @@ const Relaxed = () => {
         {/* Matter.js Debug Canvas Container */}
         <div ref={sceneRef} style={{ position: 'absolute', top: 0, left: 0, pointerEvents: 'none' }} />
 
+        {news.length === 0 && (
+            <div className="loading-relaxed" style={{ position: 'absolute', width: '100%', top: '35%', marginTop: 0, zIndex: 5, pointerEvents: 'none' }}>
+                gathering calming thoughts...
+            </div>
+        )}
+
         {/* React Overlays */}
         {bodiesData.map((d) => {
             const [baseH] = hexToHsl(bgColor);

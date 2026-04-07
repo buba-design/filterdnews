@@ -28,7 +28,7 @@ const Start = () => {
         src={logo}
         alt="FilterdNews Logo"
         style={{
-          width: 'clamp(260px, 50vw, 640px)',
+          width: 'clamp(320px, 60vw, 840px)',
           marginBottom: '3rem',
           userSelect: 'none',
         }}
@@ -56,7 +56,7 @@ const Start = () => {
       {/* ── Warning Banner (just above the bottom ticker) ── */}
       <div style={{
         position: 'absolute',
-        bottom: '36px',   /* sits directly above the 36px-high ticker bar */
+        bottom: '50px',   /* sits directly above the 48px-high ticker bar */
         left: '50%',
         transform: 'translateX(-50%)',
         pointerEvents: 'none',
@@ -66,9 +66,10 @@ const Start = () => {
           src={warningImg}
           alt="Work in progress – university project"
           style={{
-            height: '52px',
+            height: '66px',
             objectFit: 'contain',
             userSelect: 'none',
+            animation: 'pulseScaleImg 1.5s infinite alternate ease-in-out'
           }}
         />
       </div>
@@ -79,7 +80,7 @@ const Start = () => {
         title="Impressum"
         style={{
           position: 'absolute',
-          bottom: '46px',
+          bottom: '60px',
           right: '20px',
           background: 'none',
           border: '1.5px solid #333',
@@ -109,7 +110,7 @@ const Start = () => {
         bottom: 0,
         left: 0,
         width: '100%',
-        height: '36px',
+        height: '48px',
         backgroundColor: '#000',
         color: '#fff',
         display: 'flex',
@@ -122,12 +123,13 @@ const Start = () => {
           whiteSpace: 'nowrap',
           animation: 'startTicker 30s linear infinite',
           fontFamily: 'var(--font-default)',
-          fontSize: '0.8rem',
+          fontSize: '1.1rem',
+          fontWeight: 'bold',
           letterSpacing: '0.5px',
         }}>
           {/* Triple the text so loop is seamless */}
           {[0, 1, 2].map(i => (
-            <span key={i} style={{ paddingRight: '80px' }}>{TICKER_TEXT}</span>
+            <span key={i} style={{ paddingRight: '100px' }}>{TICKER_TEXT}</span>
           ))}
         </div>
       </div>

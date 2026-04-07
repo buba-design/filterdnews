@@ -1,194 +1,215 @@
 {
   "rushed": [
     {
-      "title": "TRUMP REMOVES US ATTORNEY GENERAL PAM BONDI",
-      "summary": "TRUMP REMOVES ATTORNEY GENERAL PAM BONDI; EPSTEIN FILES HANDLING CITED AS OVERSHADOWING HER TENURE.",
+      "title": "LITTLE SIGN OF BREAKTHROUGH AS TRUMP'S IRAN DEADLINE NEARS",
+      "summary": "URGENT: TRUMP'S IRAN DEADLINE LOOMS; NO DIPLOMATIC PROGRESS SEEN. SITUATION REMAINS TENSE.",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/ce843ge47z4o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/czexw94rj5jo?at_medium=RSS&at_campaign=rss",
       "image": null,
       "countryCode": "us"
     },
     {
-      "title": "'I HAVEN'T SLEPT FOR DAYS': IRANIANS DESCRIBE MOUNTING DESPERATION AFTER A MONTH OF WAR",
-      "summary": "MOUNTING DESPERATION IN IRAN AMIDST MONTH OF WAR; CITIZENS REPORT EXPANDING STRIKES, ECONOMIC PAIN, AND FEAR OF REPRESSION.",
+      "title": "AUSTRALIA'S MOST-DECORATED LIVING SOLDIER CHARGED OVER ALLEGED WAR CRIMES",
+      "summary": "SHOCK: TOP AUSTRALIAN SOLDIER FACES WAR CRIMES CHARGES; ALLEGED MURDERS DENIED. LEGAL BATTLE IMMINENT.",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/crm1vj941x9o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/crr1jyk0qwjo?at_medium=RSS&at_campaign=rss",
       "image": null,
-      "countryCode": "ir"
+      "countryCode": "au"
     },
     {
-      "title": "FEARS COST OF WATER AND BEER TO SOAR AS INDIA'S SCORCHING SUMMER HITS",
-      "summary": "INDIA FACES SOARING WATER AND BEER COSTS AMIDST SCORCHING SUMMER; SUPPLY CRUNCH HITS BOTTLE MANUFACTURERS.",
+      "title": "JD VANCE ARRIVES IN HUNGARY TO BACK ORBÁN'S RE-ELECTION BID",
+      "summary": "POLITICAL SHAKEUP: US ALLY JD VANCE BOOSTS ORBÁN IN HUNGARIAN ELECTION. HIGH STAKES AHEAD.",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c5ywqky5dd7o?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/cyv16lq2rp1o?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "countryCode": "hu"
+    },
+    {
+      "title": "NINE POLICEMEN SENTENCED TO DEATH IN INDIA OVER COVID CUSTODY KILLINGS",
+      "summary": "BREAKING NEWS: INDIA ISSUES DEATH SENTENCES FOR POLICE IN CUSTODY DEATHS. JUSTICE METED OUT.",
+      "source": "BBC World",
+      "url": "https://www.bbc.com/news/articles/ce8l0md9gl1o?at_medium=RSS&at_campaign=rss",
       "image": null,
       "countryCode": "in"
     },
     {
-      "title": "'BE SERIOUS... DON'T SPEAK EVERY DAY': MACRON CRITICISES TRUMP APPROACH TO IRAN WAR",
-      "summary": "MACRON CRITICIZES TRUMP'S APPROACH TO IRAN WAR; FRENCH LEADER URGES SERIOUSNESS AMIDST CONFLICT.",
+      "title": "TAIWAN OPPOSITION LEADER VISITS CHINA FOR EXPECTED MEETING WITH XI JINPING",
+      "summary": "HIGH STAKES: TAIWAN OPPOSITION LEADER MEETS CHINA'S XI. HOPES FOR PEACE AMIDST TENSIONS.",
       "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/cevk0e4ykwko?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/c0krnz7mmmjo?at_medium=RSS&at_campaign=rss",
+      "image": null,
+      "countryCode": "un"
+    },
+    {
+      "title": "IRAN WAR LIVE UPDATES: TRUMP’S DEADLINE DRAWS CLOSER WITH NO SIGN OF DIPLOMATIC BREAKTHROUGH",
+      "summary": "CRITICAL: TRUMP DEADLINE NEARS IN IRAN CONFLICT. NO BREAKTHROUGH AS TENSION RISES SHARPLY.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/live/2026/04/07/world/iran-war-trump-news",
+      "image": null,
+      "countryCode": "ir"
+    },
+    {
+      "title": "WHY HUNGARY’S ELECTION COULD SWING ON ROMA VOTES",
+      "summary": "ELECTION ALERT: HUNGARY'S RACE TIGHTENS, ROMA VOTES CRUCIAL FOR OUTCOME. POLITICAL FUTURE AT RISK.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/04/07/world/europe/hungary-roma-orban-election-education.html",
+      "image": null,
+      "countryCode": "hu"
+    },
+    {
+      "title": "VANCE VISITS HUNGARY TO BOOST ORBAN BEFORE ELECTION",
+      "summary": "URGENT: US VP VANCE ENDORSES ORBAN IN HUNGARY'S ELECTION. INTERNATIONAL IMPLICATIONS GROW.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/04/07/world/europe/vance-hungary-orban-fidesz-election.html",
+      "image": null,
+      "countryCode": "hu"
+    },
+    {
+      "title": "EPSTEIN IN PARIS: HOW A SEX OFFENDER HUSTLED FOR ACCESS TO FRANCE’S ELITE",
+      "summary": "SHOCKING DETAILS EMERGE ON EPSTEIN'S PARIS ACTIVITIES, EXPOSING ELITE CONNECTIONS AND SCANDAL.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/04/06/world/europe/epstein-paris-france-elite-lang.html",
       "image": null,
       "countryCode": "fr"
     },
     {
-      "title": "IRAN WAR LIVE UPDATES: DRONE HITS KUWAITI OIL REFINERY IN NEW ATTACK ON GULF ENERGY SITES",
-      "summary": "NEW ATTACK ON GULF ENERGY SITES: DRONE STRIKES KUWAITI OIL REFINERY; TRUMP THREATENS IRAN INFRASTRUCTURE.",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/live/2026/04/03/world/iran-war-trump-oil",
-      "image": null,
-      "countryCode": "kw"
-    },
-    {
-      "title": "AT WAR WITH IRAN AGAIN, SOME ISRAELIS FEAR CONFLICT IS BECOMING ROUTINE",
-      "summary": "ISRAELIS FEAR IRAN CONFLICT BECOMING ROUTINE; SUPPORT FOR WAR HIGH, BUT DOUBTS REMAIN OVER LONG-TERM SECURITY AND MOTIVES.",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/04/03/world/middleeast/israel-war-mood.html",
-      "image": null,
-      "countryCode": "il"
-    },
-    {
-      "title": "IN SYRIA, KIDNAPPINGS OF WOMEN AND GIRLS FUEL A MINORITY GROUP’S FEARS",
-      "summary": "SYRIAN MINORITY GROUP'S FEARS GROW AMIDST RISING KIDNAPPINGS OF WOMEN AND GIRLS; INVESTIGATION REVEALS BRUTALITY.",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/04/03/world/middleeast/syria-kidnapping-alawite-woman-girls.html",
-      "image": null,
-      "countryCode": "sy"
-    },
-    {
-      "title": "COULD THERE BE A POPULAR UPRISING IN CUBA?",
-      "summary": "CUBA FACES POTENTIAL POPULAR UPRISING; ANTI-GOVERNMENT PROTESTS GROWING DESPITE LACK OF ORGANIZED OPPOSITION.",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/04/03/world/americas/cuba-opposition-uprising.html",
-      "image": null,
-      "countryCode": "un"
-    },
-    {
-      "title": "COSMOPOLITAN SHANGHAI IS AN UNEASY FIT IN CHINA’S NARRATIVE OF WESTERN SINS",
-      "summary": "SHANGHAI'S COSMOPOLITAN IDENTITY CLASHES WITH CHINA'S WESTERN SINS NARRATIVE; CULTURAL AND POLITICAL TENSIONS REPORTED.",
-      "source": "New York Times",
-      "url": "https://www.nytimes.com/2026/04/03/world/asia/shanghai-dispatch-architecture.html",
-      "image": null,
-      "countryCode": "un"
-    },
-    {
-      "title": "EPA FLAGS MICROPLASTICS, PHARMACEUTICALS AS CONTAMINANTS IN DRINKING WATER",
-      "summary": "EPA FLAGS MICROPLASTICS AND PHARMACEUTICALS AS DRINKING WATER CONTAMINANTS; PUBLIC CONCERN MOUNTS OVER HEALTH RISKS.",
-      "source": "NPR Science & Environment",
-      "url": "https://www.npr.org/2026/04/02/nx-s1-5771155/epa-microplastics-pharmaceuticals-drinking-water",
+      "title": "NEW ONLINE GAME 'FIVE NIGHTS AT EPSTEIN'S' HAS PARENTS AND SCHOOLS CONCERNED",
+      "summary": "ALARMING: NEW ONLINE GAME CAUSES MAJOR CONCERN AMONG PARENTS AND EDUCATORS. URGENT WARNINGS ISSUED.",
+      "source": "NPR Arts & Life",
+      "url": "https://www.npr.org/2026/04/06/nx-s1-5766479/new-online-game-five-nights-at-epsteins-has-parents-and-schools-concerned",
       "image": null,
       "countryCode": "us"
     },
     {
-      "title": "BLAKE LIVELY'S SEXUAL HARASSMENT CLAIMS AGAINST JUSTIN BALDONI TOSSED OUT BUT ROBUST CASE REMAINS",
-      "summary": "BLAKE LIVELY SEXUAL HARASSMENT CLAIMS AGAINST JUSTIN BALDONI PARTIALLY DISMISSED; ROBUST RETALIATION CASE PROCEEDS TO JURY.",
+      "title": "A MUSIC FESTIVAL BOOKED KANYE WEST, NOW KNOWN AS YE, AND LOST MAJOR SPONSORS",
+      "summary": "CRITICAL: MUSIC FESTIVAL FACES SPONSOR BACKLASH AFTER BOOKING CONTROVERSIAL ARTIST YE. FINANCIAL IMPLICATIONS.",
       "source": "NPR Arts & Life",
-      "url": "https://www.npr.org/2026/04/03/nx-s1-5772611/blake-lively-sexual-harassment-justin-baldoni-tossed-out",
+      "url": "https://www.npr.org/2026/04/05/nx-s1-5774562/kanye-west-ye-wireless-festival-london-uk-pepsi-diageo",
       "image": null,
-      "countryCode": "us"
-    },
-    {
-      "title": "'STAY ALIVE,' ABOUT DAILY LIFE IN NAZI BERLIN, SHOWS HOW EASY IT IS TO JUST GO ALONG",
-      "summary": "NEW WORK 'STAY ALIVE' EXAMINES DAILY LIFE IN NAZI BERLIN; HISTORIAN HIGHLIGHTS EASE OF COMPLIANCE, OFFERING POWERFUL LESSONS FOR THE PRESENT.",
-      "source": "NPR Arts & Life",
-      "url": "https://www.npr.org/2026/04/02/nx-s1-5763755/stay-alive-berlin-ian-buruma-review",
-      "image": null,
-      "countryCode": "de"
+      "countryCode": "gb"
     }
   ],
   "relaxed": [
     {
-      "title": "Artemis II leaves Earth's orbit on track for far side of the Moon",
-      "summary": "Humanity reaches new frontiers as the Artemis II mission successfully leaves Earth's orbit, journeying toward the Moon, marking a significant step in space exploration since 1972.",
-      "source": "BBC World",
-      "url": "https://www.bbc.com/news/articles/c937g7nd5x4o?at_medium=RSS&at_campaign=rss",
+      "title": "In Paris’s Catacombs, Can a Restoration Breathe New Life Into City’s Dead?",
+      "summary": "Exploring the peaceful restoration of Paris's historic catacombs, carefully preserving their unique atmosphere for future generations to respectfully experience.",
+      "source": "New York Times",
+      "url": "https://www.nytimes.com/2026/04/07/world/europe/paris-catacombs-renovation.html",
       "image": null
     },
     {
-      "title": "Endangered Cockatoos Finally Hatch Chick in Artificial Nest, a Promise of Conservation Success",
-      "summary": "Hope for endangered cockatoos shines as a chick successfully hatches in an artificial nest, demonstrating a significant breakthrough in conservation efforts for the unique Australian species.",
+      "title": "Betta Fish Turns Vivid Blue When Happy Again–After Moving From Pet Shop Jar to Caring Home (WATCH)",
+      "summary": "A rescued betta fish finds happiness and transforms into a vibrant blue in its new loving home, showcasing the power of care and positive environments.",
       "source": "Good News Network",
-      "url": "https://www.goodnewsnetwork.org/endangered-cockatoos-finally-hatch-a-chick-in-artificial-nest-a-promise-of-conservation-success/",
+      "url": "https://www.goodnewsnetwork.org/betta-fish-turns-vivid-blue-when-happy-again-after-moving-from-pet-shop-jar-to-caring-home-watch/",
       "image": null
     },
     {
-      "title": "Remains of ‘Three Musketeers’ Hero May Have Been Found Under Church Altar – DNA Testing Underway",
-      "summary": "An exciting historical discovery is unfolding in the Netherlands, as potential remains of the real d'Artagnan, inspiration for 'The Three Musketeers,' are found, with DNA testing now underway.",
+      "title": "Endangered Bird Was Losing its Song, So Captive Breeding Now Includes ‘Singing Lessons’ from Wild Males",
+      "summary": "Conservationists are creatively helping endangered regent honeyeaters rediscover their natural songs, a charming step towards preserving their unique vocal traditions and species.",
       "source": "Good News Network",
-      "url": "https://www.goodnewsnetwork.org/remains-of-the-real-dartagnan-may-have-been-found-under-church-altar-dna-testing-underway/",
+      "url": "https://www.goodnewsnetwork.org/endangered-bird-was-losing-its-song-so-captive-breeding-now-includes-singing-lessons-from-wild-males/",
       "image": null
     },
     {
-      "title": "Windows Broken Into Become Earrings in One Woman’s Quest to Keep Glass Out of Landfills",
-      "summary": "A creative artisan in the Bay Area transforms broken car windows into beautiful floral-themed earrings, turning unfortunate incidents into a positive effort to reduce landfill waste.",
+      "title": "Hard-to-Recycle Waste Forms Lightweight Concrete for Paving Roads and More in Hungary",
+      "summary": "An innovative Hungarian firm is transforming difficult-to-recycle waste into lightweight concrete, paving the way for sustainable infrastructure and a cleaner future.",
       "source": "Good News Network",
-      "url": "https://www.goodnewsnetwork.org/broken-in-windows-become-jade-earrings-in-one-craftswomans-quest-to-keep-glass-out-of-landfills/",
+      "url": "https://www.goodnewsnetwork.org/hard-to-recycle-waste-forms-lightweight-concrete-for-paving-roads-and-more-in-hungary/",
       "image": null
     },
     {
-      "title": "8-year-old’s ‘Sweet Monsters’ Drawing Chosen as Winning Design to Decorate Real Train",
-      "summary": "An inspiring tale from the Netherlands sees an 8-year-old's imaginative 'Sweet Monsters' drawing brought to life, chosen to decorate a national train, bringing joy to travelers.",
+      "title": "Scotland’s Largest Greenhouse Set to Be Preserved as ‘Living Ruin’ and New Event Space",
+      "summary": "Scotland's historic Springburn Winter Gardens are getting a new lease on life, transforming a derelict greenhouse into a beautiful 'living ruin' and community event space.",
       "source": "Good News Network",
-      "url": "https://www.goodnewsnetwork.org/232208-2/",
+      "url": "https://www.goodnewsnetwork.org/scotlands-largest-greenhouse-set-to-be-preserved-as-living-ruin-and-new-event-space/",
       "image": null
     },
     {
-      "title": "The Sunniest, Windiest Country Announces Renewables Project to Power 6 Million Homes",
-      "summary": "A leading nation in renewable energy is set to power millions of homes with a new project harnessing abundant wind and solar resources, showcasing a positive step towards a sustainable future.",
+      "title": "Architect Creates App to Show Which Pub Gardens are Sunny – Using Shadow Simulations From Buildings",
+      "summary": "An ingenious architect has developed an app to help people find sunny pub gardens, making it easier to enjoy outdoor leisure and a bit of sunshine.",
       "source": "Good News Network",
-      "url": "https://www.goodnewsnetwork.org/the-sunniest-windiest-country-announces-renewables-project-to-power-6-million-homes/",
+      "url": "https://www.goodnewsnetwork.org/architect-creates-app-to-show-which-pub-patios-are-sunny/",
       "image": null
     },
     {
-      "title": "Big tech's next move is to put data centers in space. Can it work?",
-      "summary": "Exploring the future of technology, big tech companies are considering placing data centers in space, a fascinating concept that promises free power, opening new possibilities for innovation.",
+      "title": "Artemis II astronauts swung by the moon, broke an Apollo record, and saw an eclipse",
+      "summary": "The Artemis II mission successfully completed a historic lunar flyby, breaking records and offering astronauts a unique view of a solar eclipse on their journey home.",
       "source": "NPR Science & Environment",
-      "url": "https://www.npr.org/2026/04/03/nx-s1-5718416/ai-data-centers-in-space-spacex-elon-musk",
+      "url": "https://www.npr.org/2026/04/07/nx-s1-5775710/artemis-lunar-flyby-complete-heading-home",
       "image": null
     },
     {
-      "title": "NASA's Artemis II has left Earth's orbit, and 4 astronauts now head to the moon",
-      "summary": "The Artemis II mission continues its remarkable journey as four astronauts depart Earth's orbit, now en route to the Moon, marking a significant and exciting advancement in human spaceflight.",
+      "title": "What can Artemis II astronauts see that satellites haven't captured?",
+      "summary": "Artemis II astronauts are set to provide invaluable human perspectives on the moon, observing features unseen by satellites and enhancing our understanding of lunar science.",
       "source": "NPR Science & Environment",
-      "url": "https://www.npr.org/2026/04/03/nx-s1-5771567/nasa-artemis-ii-tli-moon",
+      "url": "https://www.npr.org/2026/04/06/nx-s1-5775639/artemis-astronauts-moon-observation-nasa-human-eye",
       "image": null
     },
     {
-      "title": "This week in science: How much exercise you need, flu resistance and fortified food",
-      "summary": "Discover insights from the latest science news, covering topics from optimal exercise levels and flu resistance to the benefits of fortified foods, offering valuable knowledge for a healthier life.",
+      "title": "Artemis II astronauts heading home after historic moon flyby",
+      "summary": "The Artemis II crew is safely on their way back to Earth following a monumental moon flyby, celebrating a successful mission that broke records and captured incredible celestial views.",
       "source": "NPR Science & Environment",
-      "url": "https://www.npr.org/2026/04/02/nx-s1-5764002/this-week-in-science-how-much-exercise-you-need-flu-resistance-and-fortified-food",
+      "url": "https://www.npr.org/2026/04/06/nx-s1-5773187/nasa-artemis-ii-moon-lunar-flyby",
       "image": null
     },
     {
-      "title": "Success! After key milestone, Artemis II astronauts speed off toward the moon",
-      "summary": "A moment of triumph for space exploration as Artemis II astronauts successfully complete a crucial maneuver, propelling them towards the Moon, demonstrating humanity's inspiring capabilities.",
+      "title": "These rock-climbing fish can shimmy up a 50-foot waterfall",
+      "summary": "New research unveils an amazing species of fish capable of climbing 50-foot waterfalls, highlighting the incredible adaptability and resilience of nature.",
       "source": "NPR Science & Environment",
-      "url": "https://www.npr.org/2026/04/02/nx-s1-5770599/artemis-ii-10-day-mission-preview",
+      "url": "https://www.npr.org/2026/04/05/nx-s1-5773315/shellear-climbing-fish-congo-waterfall",
       "image": null
     },
     {
-      "title": "The surprising feminist history of baseball's biggest anthem",
-      "summary": "Uncover the rich and surprising feminist history behind baseball's iconic anthem, 'Take Me Out to the Ball Game,' revealing deeper cultural layers to a beloved American tradition.",
+      "title": "NASA's Artemis II crew are quite the photographers. See what they've snapped so far",
+      "summary": "The Artemis II crew is capturing breathtaking images from space, sharing their unique perspective of the moon mission and inspiring wonder with every shot.",
+      "source": "NPR Science & Environment",
+      "url": "https://www.npr.org/sections/the-picture-show/2026/04/03/nx-s1-5773282/artemis-ii-nasa-photos",
+      "image": null
+    },
+    {
+      "title": "How a stranger encouraged a father struggling with his daughter's health issues",
+      "summary": "A heartwarming encounter with a stranger brought significant encouragement to a father navigating his daughter's health challenges, demonstrating the impact of human kindness.",
       "source": "NPR Arts & Life",
-      "url": "https://www.npr.org/2026/04/03/nx-s1-5768255/take-me-out-to-the-ball-game-lyrics-baseball-women",
+      "url": "https://www.npr.org/2026/04/06/nx-s1-5774524/how-a-stranger-encouraged-a-father-struggling-with-his-daughters-health-issues",
       "image": null
     },
     {
-      "title": "Ziggy Stardust and Hacky Sack: What life was like the last time we went to the moon",
-      "summary": "Take a nostalgic journey back to 1972, exploring cultural touchstones like Ziggy Stardust and the Egg McMuffin, as we reflect on life during the last human mission to the Moon.",
+      "title": "Even when Arsenio Hall's show was a hit, 'everyone wanted it to be something else'",
+      "summary": "Reflecting on Arsenio Hall's impactful late-night show, a look back at its unique place in television history and how it championed diverse voices.",
       "source": "NPR Arts & Life",
-      "url": "https://www.npr.org/2026/04/02/nx-s1-5771486/artemis-moon-mission-apollo-1972",
+      "url": "https://www.npr.org/2026/04/06/nx-s1-5763692/arsenio-hall-memoir",
       "image": null
     },
     {
-      "title": "From 'The Old Man' to 'Giant,' John Lithgow is still going strong",
-      "summary": "Celebrating a prolific career, legendary actor John Lithgow continues to shine in diverse roles, from action series to Broadway, demonstrating his enduring talent and versatility.",
+      "title": "Hollywood studios reach a tentative agreement with writers union",
+      "summary": "Hollywood studios and the writers' union have reached a tentative agreement, signaling a positive step forward for the industry and its creative talents.",
       "source": "NPR Arts & Life",
-      "url": "https://www.npr.org/2026/04/02/nx-s1-5763691/from-the-old-man-to-giant-john-lithgow-is-still-going-strong",
+      "url": "https://www.npr.org/2026/04/05/nx-s1-5774517/hollywood-studios-wga-tentative-agreement-writers-union",
       "image": null
     }
   ],
-  "animals": []
+  "animals": [
+    {
+      "title": "Betta Fish Turns Vivid Blue When Happy Again–After Moving From Pet Shop Jar to Caring Home (WATCH)",
+      "url": "https://www.goodnewsnetwork.org/betta-fish-turns-vivid-blue-when-happy-again-after-moving-from-pet-shop-jar-to-caring-home-watch/",
+      "summary": "A woman who’s spent 15 years raising beautiful betta fish shared a heartwarming story about her latest family member: Stevie, who she found as a dull and depressed white color in a pet shop cup of water. Taking him home and nursing him back to health, he rewarded her by flushing an incredible electric blue. […]\nThe post Betta Fish Turns Vivid Blue When Happy Again–After Moving From Pet Shop Jar to Caring Home (WATCH) appeared first on Good News Network.",
+      "source": "Good News Network",
+      "image": null
+    },
+    {
+      "title": "Endangered Bird Was Losing its Song, So Captive Breeding Now Includes ‘Singing Lessons’ from Wild Males",
+      "url": "https://www.goodnewsnetwork.org/endangered-bird-was-losing-its-song-so-captive-breeding-now-includes-singing-lessons-from-wild-males/",
+      "summary": "In one of the stranger manifestations of species decline in Australia, the Critically-Endangered regent honeyeater is having to re-learn its natural love song. With 300 or fewer of these beautiful birds left in the wild, young solitary males have been observed mimicking the calls of other honeyeaters, and even other birds. The songs are part […]\nThe post Endangered Bird Was Losing its Song, So Captive Breeding Now Includes ‘Singing Lessons’ from Wild Males appeared first on Good News Network.",
+      "source": "Good News Network",
+      "image": null
+    },
+    {
+      "title": "These rock-climbing fish can shimmy up a 50-foot waterfall",
+      "url": "https://www.npr.org/2026/04/05/nx-s1-5773315/shellear-climbing-fish-congo-waterfall",
+      "summary": "New research from the Democratic Republic of Congo offers a behavioral and anatomical portrait of a species that can achieve surprising athletic feats.",
+      "source": "NPR Science & Environment",
+      "image": null
+    }
+  ]
 }

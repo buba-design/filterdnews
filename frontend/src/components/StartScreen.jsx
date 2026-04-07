@@ -29,7 +29,7 @@ const StartScreen = ({ onSelectMode }) => {
         src={logo}
         alt="FilterdNews Logo"
         style={{
-          width: 'clamp(260px, 48vw, 620px)',
+          width: 'clamp(320px, 60vw, 840px)',
           marginBottom: '6rem',
           userSelect: 'none',
         }}
@@ -147,7 +147,7 @@ const StartScreen = ({ onSelectMode }) => {
       {/* ── Warning Banner (just above the bottom ticker) ── */}
       <div style={{
         position: 'absolute',
-        bottom: '40px',
+        bottom: '54px',
         left: '50%',
         transform: 'translateX(-50%)',
         pointerEvents: 'none',
@@ -157,9 +157,10 @@ const StartScreen = ({ onSelectMode }) => {
           src={warningImg}
           alt="Work in progress – university project"
           style={{
-            height: '52px',
+            height: '66px',
             objectFit: 'contain',
             userSelect: 'none',
+            animation: 'pulseScaleImg 1.5s infinite alternate ease-in-out'
           }}
         />
       </div>
@@ -170,7 +171,7 @@ const StartScreen = ({ onSelectMode }) => {
         title="Impressum"
         style={{
           position: 'absolute',
-          bottom: '46px',
+          bottom: '60px',
           right: '20px',
           background: 'none',
           border: '1.5px solid #333',
@@ -200,7 +201,7 @@ const StartScreen = ({ onSelectMode }) => {
         bottom: 0,
         left: 0,
         width: '100%',
-        height: '36px',
+        height: '48px',
         backgroundColor: '#000',
         color: '#fff',
         display: 'flex',
@@ -213,11 +214,12 @@ const StartScreen = ({ onSelectMode }) => {
           whiteSpace: 'nowrap',
           animation: 'startTicker 28s linear infinite',
           fontFamily: 'var(--font-default)',
-          fontSize: '0.8rem',
+          fontSize: '1.1rem',
+          fontWeight: 'bold',
           letterSpacing: '0.5px',
         }}>
           {[0, 1, 2, 3].map(i => (
-            <span key={i} style={{ paddingRight: '80px' }}>{TICKER_TEXT}</span>
+            <span key={i} style={{ paddingRight: '100px' }}>{TICKER_TEXT}</span>
           ))}
         </div>
       </div>

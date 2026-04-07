@@ -37,7 +37,7 @@
   font-weight: 700;
   letter-spacing: 0.5px;
   color: #111;
-  font-size: clamp(15px, 2.0vw, 28px);
+  font-size: clamp(12px, 1.6vw, 20px);
   line-height: 1.08;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.35);
 }
@@ -56,7 +56,7 @@
   font-family: 'ComicSansMSBold', 'Comic Sans MS', cursive;
   font-weight: 700;
   letter-spacing: 1px;
-  font-size: clamp(11px, 1.5vw, 17px);
+  font-size: clamp(10px, 1.2vw, 14px);
 }
 
 .animals-arrows {
